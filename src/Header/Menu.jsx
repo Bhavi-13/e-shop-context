@@ -8,7 +8,7 @@ function Menu() {
     const [ cart ] = context.productApi.cart
   
     return (
-    <div className="navbar navbar-expand-md navbar-dark bg-success">
+    <div className="navbar navbar-expand-md navbar-dark bg-secondary">
         <div className="container">
             <NavLink to={`/`} className="navbar-brand">E-Shop</NavLink>
 
